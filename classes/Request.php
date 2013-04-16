@@ -18,10 +18,7 @@ class Request
 	{
 		if (isset($_SERVER['PATH_INFO'])) {
 			if ($path_info = explode("/", $_SERVER['PATH_INFO'])) {
-
-				// beacause its empty!
 				array_shift($path_info);
-
 				$this->controller = isset($path_info[0]) ? array_shift($path_info) : 'welcome';
 				$this->action = isset($path_info[0]) && ! empty($path_info[0]) ? array_shift($path_info) : 'index';
 				$this->params = isset($path_info[0]) ? $path_info : NULL;
@@ -31,6 +28,3 @@ class Request
 }
 
 $request = new Request;
-
-print_r($request);
-die();

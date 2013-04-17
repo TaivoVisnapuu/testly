@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="2259c06d-bcf7-4e54-9c07-6a715f791ed6" name="Default" comment="" />
-    <list default="true" id="d250bab3-7faa-4599-ad43-b938297d890f" name="804555-48140467 Sisselogimine usernameiga" comment="Add gitignore.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/tests.php" />
+    <list default="true" id="d250bab3-7faa-4599-ad43-b938297d890f" name="804555-48140467 Sisselogimine usernameiga" comment="Add tests. Add index function. Add $requires_auth">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/database.php" afterPath="$PROJECT_DIR$/classes/database.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Testly.iws" />
@@ -12,7 +13,7 @@
     <file path="/index.php" changelist="d250bab3-7faa-4599-ad43-b938297d890f" time="1366113518649" ignored="false" />
     <file path="/test.php" changelist="2259c06d-bcf7-4e54-9c07-6a715f791ed6" time="1366018700031" ignored="false" />
     <file path="/Request.php" changelist="d250bab3-7faa-4599-ad43-b938297d890f" time="1366187614064" ignored="false" />
-    <file path="/Dummy.txt" changelist="d250bab3-7faa-4599-ad43-b938297d890f" time="1366187976124" ignored="false" />
+    <file path="/Dummy.txt" changelist="d250bab3-7faa-4599-ad43-b938297d890f" time="1366188585944" ignored="false" />
     <file path="/.htaccess.php" changelist="2259c06d-bcf7-4e54-9c07-6a715f791ed6" time="1366022875734" ignored="false" />
     <file path="/config.php" changelist="d250bab3-7faa-4599-ad43-b938297d890f" time="1366187128317" ignored="false" />
     <file path="/database.php" changelist="d250bab3-7faa-4599-ad43-b938297d890f" time="1366186750693" ignored="false" />
@@ -41,19 +42,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="config.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="35" selection-start="190" selection-end="190" vertical-scroll-proportion="-4.2413793">
+            <state line="5" column="21" selection-start="146" selection-end="146" vertical-scroll-proportion="0.26121372">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="tests.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/tests.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="8" selection-start="228" selection-end="228" vertical-scroll-proportion="0.71929824">
+            <state line="12" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="-4.2413793">
               <folding />
             </state>
           </provider>
@@ -89,7 +90,7 @@
       <file leaf-file-name="Request.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/Request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="1" selection-start="798" selection-end="798" vertical-scroll-proportion="-4.965517">
+            <state line="30" column="1" selection-start="798" selection-end="798" vertical-scroll-proportion="-6.0">
               <folding />
             </state>
           </provider>
@@ -98,7 +99,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,7 +108,7 @@
       <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="35" selection-start="502" selection-end="502" vertical-scroll-proportion="-3.1034484">
+            <state line="23" column="1" selection-start="567" selection-end="567" vertical-scroll-proportion="-16.37931">
               <folding />
             </state>
           </provider>
@@ -159,11 +160,11 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/views/auth_view.php" />
         <option value="$PROJECT_DIR$/controllers/auth.php" />
-        <option value="$PROJECT_DIR$/classes/database.php" />
         <option value="$PROJECT_DIR$/classes/Request.php" />
+        <option value="$PROJECT_DIR$/controllers/tests.php" />
+        <option value="$PROJECT_DIR$/classes/database.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/controllers/tests.php" />
       </list>
     </option>
   </component>
@@ -172,7 +173,7 @@
     <option name="x" value="24" />
     <option name="y" value="22" />
     <option name="width" value="1369" />
-    <option name="height" value="383" />
+    <option name="height" value="591" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -359,7 +360,11 @@
       <created>1366187977787</created>
       <updated>1366187977787</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add tests. Add index function. Add $requires_auth">
+      <created>1366188588174</created>
+      <updated>1366188588174</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers>
       <PivotalTracker shared="false" url="http://www.pivotaltracker.com">
         <option name="APIKey" value="e1d2f872f0e0b047a2d49ffcc9bb601b" />
@@ -375,15 +380,15 @@
     </servers>
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="22" width="1369" height="383" extended-state="0" />
+    <frame x="24" y="22" width="1369" height="591" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37434554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41098902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26090282" sideWeight="0.9848485" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26090282" sideWeight="0.589011" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32553193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -440,7 +445,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add gitignore." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tests. Add index function. Add $requires_auth" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -462,6 +467,7 @@
     <MESSAGE value="Add blabla" />
     <MESSAGE value="Add default controller. Add redirect function. Enhanced nonexisted controller message" />
     <MESSAGE value="Add gitignore." />
+    <MESSAGE value="Add tests. Add index function. Add $requires_auth" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -539,13 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="35" selection-start="502" selection-end="502" vertical-scroll-proportion="-3.1034484">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="44" selection-start="432" selection-end="432" vertical-scroll-proportion="-3.310345">
@@ -553,30 +552,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/tests.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="-4.2413793">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classes/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="1" selection-start="798" selection-end="798" vertical-scroll-proportion="-4.965517">
+        <state line="30" column="1" selection-start="798" selection-end="798" vertical-scroll-proportion="-6.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="1" selection-start="567" selection-end="567" vertical-scroll-proportion="-16.37931">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="35" selection-start="190" selection-end="190" vertical-scroll-proportion="-4.2413793">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/tests.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="8" selection-start="228" selection-end="228" vertical-scroll-proportion="0.71929824">
+        <state line="5" column="21" selection-start="146" selection-end="146" vertical-scroll-proportion="0.26121372">
           <folding />
         </state>
       </provider>

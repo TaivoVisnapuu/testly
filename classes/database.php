@@ -9,14 +9,16 @@ function q($sql, $debug = false){
 		print "<pre>$sql</pre>";
 	}
 }
- function get_one($sql, $debug = false){
-	 if($debug){
-		 print "<pre>$sql</pre>";
-	 }
-	 $q = mysql_query($sql) or exit(mysql_error());
-	 if(mysql_num_rows($q) === false){
-		 exit($sql);
-	 }
-	 $result = mysql_fetch_row($q);
-	 return is_array($result) && count($result) > 0 ? $result[0] : null;
- }
+function get_one($sql, $debug = FALSE){
+	if($debug){
+		print "<pre>$sql</pre>";
+	}
+	$q = mysql_query($sql) or exit (mysql_error());
+
+	if(mysql_num_rows($q) === FALSE){
+		exit($sql);
+	}
+	$result = mysql_fetch_row($q);
+	return is_array($result) && count($result) > 0 ? $result[0] : null;
+
+}

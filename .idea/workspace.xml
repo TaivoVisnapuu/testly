@@ -1,39 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="2259c06d-bcf7-4e54-9c07-6a715f791ed6" name="Default" comment="" />
-    <list default="true" id="d250bab3-7faa-4599-ad43-b938297d890f" name="804555-48140467 Sisselogimine usernameiga" comment="Add tests. Add index function. Add $requires_auth">
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Testly\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Testly\.idea\Testly.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Testly\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Testly\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Testly\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Testly\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Testly\.idea\vcs.xml" afterPath="" />
+    <list default="true" id="c4014f5c-3156-489c-ba05-51cecb9a237a" name="Default" comment="[#]Make auth_view pretty!">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\Testly\.idea\workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/Request.php" afterPath="$PROJECT_DIR$/classes/Request.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/auth.php" afterPath="$PROJECT_DIR$/controllers/auth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/database.php" afterPath="$PROJECT_DIR$/classes/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/tests.php" afterPath="$PROJECT_DIR$/controllers/tests.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/user.php" afterPath="$PROJECT_DIR$/classes/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/auth_view.php" afterPath="$PROJECT_DIR$/views/auth_view.php" />
     </list>
     <ignored path="Testly.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.php" changelist="d250bab3-7faa-4599-ad43-b938297d890f" time="1366191014681" ignored="false" />
-    <file path="/test.php" changelist="2259c06d-bcf7-4e54-9c07-6a715f791ed6" time="1366018700031" ignored="false" />
-    <file path="/Request.php" changelist="d250bab3-7faa-4599-ad43-b938297d890f" time="1366194473518" ignored="false" />
-    <file path="/Dummy.txt" changelist="d250bab3-7faa-4599-ad43-b938297d890f" time="1366188585944" ignored="false" />
-    <file path="/.htaccess.php" changelist="2259c06d-bcf7-4e54-9c07-6a715f791ed6" time="1366022875734" ignored="false" />
-    <file path="/config.php" changelist="d250bab3-7faa-4599-ad43-b938297d890f" time="1366187128317" ignored="false" />
-    <file path="/database.php" changelist="d250bab3-7faa-4599-ad43-b938297d890f" time="1366186750693" ignored="false" />
-    <file path="/user.php" changelist="d250bab3-7faa-4599-ad43-b938297d890f" time="1366108305398" ignored="false" />
-    <file path="/auth.php" changelist="d250bab3-7faa-4599-ad43-b938297d890f" time="1366112416575" ignored="false" />
-    <file path="/a.dummy" changelist="d250bab3-7faa-4599-ad43-b938297d890f" time="1366114033458" ignored="false" />
-    <file path="/auth_view.php" changelist="d250bab3-7faa-4599-ad43-b938297d890f" time="1366113793522" ignored="false" />
-    <file path="/.gitignore" changelist="d250bab3-7faa-4599-ad43-b938297d890f" time="1366187957784" ignored="false" />
-    <file path="/tests.php" changelist="d250bab3-7faa-4599-ad43-b938297d890f" time="1366188525695" ignored="false" />
+    <file path="/Dummy.txt" changelist="c4014f5c-3156-489c-ba05-51cecb9a237a" time="1366200246088" ignored="false" />
+    <file path="/auth_view.php" changelist="c4014f5c-3156-489c-ba05-51cecb9a237a" time="1366199323105" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +29,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.php">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="-5.793103">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master_view.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/master_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="628" selection-end="741" vertical-scroll-proportion="-3.310345">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controller_action_view.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/controller_action_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth_view.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/auth_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="34" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.33195022">
               <folding />
             </state>
           </provider>
@@ -65,34 +68,16 @@
       <file leaf-file-name="tests.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/tests.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="1" selection-start="232" selection-end="232" vertical-scroll-proportion="-7.448276">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.htaccess">
+      <file leaf-file-name="auth.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/auth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth_view.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/auth_view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="7" selection-start="269" selection-end="269" vertical-scroll-proportion="-0.20689656">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="12" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.82758623">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -101,16 +86,7 @@
       <file leaf-file-name="user.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="18" selection-start="734" selection-end="734" vertical-scroll-proportion="-11.275862">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllers/auth.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="29" selection-start="492" selection-end="492" vertical-scroll-proportion="0.45498782">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -119,25 +95,14 @@
       <file leaf-file-name="Request.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/Request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="5" selection-start="824" selection-end="824" vertical-scroll-proportion="-20.310345">
-              <folding>
-                <element signature="e#6#169#0" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="419" selection-end="419" vertical-scroll-proportion="-0.8965517">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller_action_view.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/controller_action_view.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
@@ -153,11 +118,9 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
-    <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -165,29 +128,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/.htaccess.php" />
-        <option value="$PROJECT_DIR$/views/master_view.php" />
-        <option value="$PROJECT_DIR$/classes/auth.php" />
         <option value="$PROJECT_DIR$/views/auth_view.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/controllers/tests.php" />
-        <option value="$PROJECT_DIR$/controllers/auth.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/classes/user.php" />
-        <option value="$PROJECT_DIR$/classes/Request.php" />
-        <option value="$PROJECT_DIR$/classes/database.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
+    <option name="x" value="3" />
+    <option name="y" value="62" />
     <option name="width" value="1369" />
-    <option name="height" value="619" />
+    <option name="height" value="466" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -213,7 +165,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -274,145 +225,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Testly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Testly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="editor" />
-    <property name="last_opened_file_path" value="C:/PortGIT/bin/git.exe" />
-    <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Testly\controllers" />
-    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
-    <task id="Default" summary="Default task">
-      <changelist id="2259c06d-bcf7-4e54-9c07-6a715f791ed6" name="Default" comment="" />
-      <created>1366011546812</created>
-      <updated>1366098878738</updated>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4014f5c-3156-489c-ba05-51cecb9a237a" name="Default" comment="" />
+      <created>1366197214349</created>
+      <updated>1366197214349</updated>
     </task>
-    <task id="LOCAL-00001" summary="just checking if git is working properly...">
-      <created>1366019954906</created>
-      <updated>1366019954906</updated>
-    </task>
-    <task id="LOCAL-00002" summary="just checking if git is working properly...">
-      <created>1366019961343</created>
-      <updated>1366019961343</updated>
-    </task>
-    <task id="LOCAL-00003" summary="just checking if git is working properly...">
-      <created>1366020274390</created>
-      <updated>1366020274390</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Remove Google Analytics">
-      <created>1366020410531</created>
-      <updated>1366020410531</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Remove Google Analytics code snippet.">
-      <created>1366020538406</created>
-      <updated>1366020538406</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Add MVC machine">
-      <created>1366026322156</created>
-      <updated>1366026322156</updated>
-    </task>
-    <task active="true" id="804555-48140467" summary="Sisselogimine usernameiga">
-      <changelist id="d250bab3-7faa-4599-ad43-b938297d890f" name="804555-48140467 Sisselogimine usernameiga" comment="" />
-      <created>1366084766000</created>
-      <option name="issue" value="true" />
-      <updated>1366098878996</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Add controller to index.php Create user class">
-      <created>1366109949186</created>
-      <updated>1366109949186</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Add blabla">
-      <created>1366114159393</created>
-      <updated>1366114159393</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Add default controller. Add redirect function. Enhanced nonexisted controller message">
-      <created>1366187879100</created>
-      <updated>1366187879100</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Add gitignore.">
-      <created>1366187977787</created>
-      <updated>1366187977787</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Add tests. Add index function. Add $requires_auth">
-      <created>1366188588174</created>
-      <updated>1366188588174</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
-    <servers>
-      <PivotalTracker shared="false" url="http://www.pivotaltracker.com">
-        <option name="APIKey" value="e1d2f872f0e0b047a2d49ffcc9bb601b" />
-        <commitMessageFormat>[{number}]</commitMessageFormat>
-        <password />
-        <option name="loginAnonymously" value="false" />
-        <option name="projectId" value="804555" />
-        <option name="shouldFormatCommitMessage" value="false" />
-        <option name="useHttpAuthentication" value="false" />
-        <option name="useProxy" value="false" />
-        <username />
-      </PivotalTracker>
-    </servers>
+    <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="0" width="1369" height="619" extended-state="0" />
+    <frame x="3" y="62" width="1369" height="466" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41098902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26090282" sideWeight="0.99785405" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24942617" sideWeight="0.99375" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32553193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -420,7 +287,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
       <value>
@@ -457,7 +324,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tests. Add index function. Add $requires_auth" />
+    <option name="LAST_COMMIT_MESSAGE" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -471,23 +338,12 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="just checking if git is working properly..." />
-    <MESSAGE value="Remove Google Analytics" />
-    <MESSAGE value="Remove Google Analytics code snippet." />
-    <MESSAGE value="Add MVC machine" />
-    <MESSAGE value="Add controller to index.php Create user class" />
-    <MESSAGE value="Add blabla" />
-    <MESSAGE value="Add default controller. Add redirect function. Enhanced nonexisted controller message" />
-    <MESSAGE value="Add gitignore." />
-    <MESSAGE value="Add tests. Add index function. Add $requires_auth" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+    <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/master_view.php">
+    <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -496,28 +352,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="3" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/controller_action_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -529,74 +371,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
+    <entry file="file://$PROJECT_DIR$/views/controller_action_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.82758623">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/tests.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="232" selection-end="232" vertical-scroll-proportion="-7.448276">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="484" selection-end="484" vertical-scroll-proportion="0.5727003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/master_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="7" selection-start="1571" selection-end="1571" vertical-scroll-proportion="-23.172413">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="-5.793103">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="18" selection-start="734" selection-end="734" vertical-scroll-proportion="-11.275862">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="5" selection-start="824" selection-end="824" vertical-scroll-proportion="-20.310345">
-          <folding>
-            <element signature="e#6#169#0" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="419" selection-end="419" vertical-scroll-proportion="-0.8965517">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/auth_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="7" selection-start="269" selection-end="269" vertical-scroll-proportion="-0.20689656">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="492" selection-end="492" vertical-scroll-proportion="0.45498782">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/low_contrast_linen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/master_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="628" selection-end="741" vertical-scroll-proportion="-3.310345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/auth_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="34" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.33195022">
           <folding />
         </state>
       </provider>

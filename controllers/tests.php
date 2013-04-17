@@ -8,7 +8,8 @@
  */
 
 class tests {
-	public $requires_auth = true;
+	public $requires_auth = TRUE;
+
 	function index(){
 
 	}

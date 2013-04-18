@@ -58,7 +58,8 @@
 	<link rel="shortcut icon" href="../assets/ico/favicon.png">
 </head>
 
-<body style="background-image:url(assets/low_contrast_linen.png)">
+<body style="background-image:url(/assets/low_contrast_linen.png)">
+
 
 <div class="container">
 

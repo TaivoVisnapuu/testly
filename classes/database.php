@@ -26,3 +26,11 @@ function get_one($sql, $debug = FALSE)
 	return is_array($result) && count($result) > 0 ? $result[0] : NULL;
 
 }
+
+function get_all($sql){
+	$q = mysql_query($sql) or exit (mysql_error());
+	while(($result[] = mysql_fetch_assoc($q)) || array_pop($result)){
+			;
+	}
+	return $result;
+}

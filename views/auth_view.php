@@ -21,8 +21,8 @@
 			max-width: 300px;
 			padding: 19px 29px 29px;
 			margin: 0 auto 20px;
-			background-color: #fff;
-			border: 1px solid #e5e5e5;
+			background-image:url(assets/mac-os-x-linen-wallpaper.jpg);
+			border: 1px solid darkgray;
 			-webkit-border-radius: 5px;
 			-moz-border-radius: 5px;
 			border-radius: 5px;
@@ -58,7 +58,7 @@
 	<link rel="shortcut icon" href="../assets/ico/favicon.png">
 </head>
 
-<body style="background-image:url(/assets/low_contrast_linen.png)">
+<body style="background-image:url(assets/low_contrast_linen.png); color: white; text-shadow: 3px 1px 3px black">
 
 
 <div class="container">
@@ -70,7 +70,7 @@
 		<label class="checkbox">
 			<input type="checkbox" value="remember-me"> Hoia meeles!
 		</label>
-		<button class="btn btn-large btn-primary" type="submit">Logi sisse</button>
+		<button class="btn btn-large btn-inverse" type="submit">Logi sisse</button>
 	</form>
 
 </div> <!-- /container -->

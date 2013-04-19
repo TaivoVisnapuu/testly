@@ -1,6 +1,6 @@
 RewriteEngine On
 
-RewriteBase /Testly/
+RewriteBase /testly/
 
 RewriteRule ^(classes) - [F,L]
 
@@ -8,6 +8,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
 RewriteRule .* index.php/$0 [PT,L]
-
-# Enable <? ?>
 php_value short_open_tag 1

@@ -18,7 +18,6 @@
 
 	<link rel="stylesheet" href="<?=ASSETS_URL?>css/normalize.css">
 	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="<?=ASSETS_URL?>css/main.css">
 	<script src="<?=ASSETS_URL?>js/vendor/modernizr-2.6.2.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="<?=ASSETS_URL?>js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
@@ -27,29 +26,31 @@
 	<script src="<?=ASSETS_URL?>js/main.js"></script>
 	<script>BASE_URL='<?=BASE_URL?>'</script>
 	<?if(! empty($this->scripts)) :  ?>
-	<? foreach($this->scripts as $script) : ?>
-	<script src="<?=ASSETS_URL?>js/<?=$script?>" ></script>
-	<?endforeach?>
+		<? foreach($this->scripts as $script) : ?>
+			<script src="<?=ASSETS_URL?>js/<?=$script?>" ></script>
+		<?endforeach?>
 	<?endif?>
-	<style>
-
-		body {
+	<style>body {
 			padding-top: 60px;
 		}
 
-		body, html {
-			background: url('<?=BASE_URL?>assets/img/bg.jpg');
+		html, body {
+			background-image: url('<?=BASE_URL?>assets/low_contrast_linen.png');
 			height: 100%;
-
 		}
 
 		table.table-bordered tr {
-			background-color: #f9f9f9;
+			background-color: lightgray;
+		}
+
+		table.table-bordered th {
+			background-color: darkgray;
 		}
 	</style>
 </head>
-<body>
 
+
+<body>
 <div class="navbar navbar-inverse navbar-fixed-top">
 	<div class="navbar-inner">
 		<div class="container">
@@ -58,12 +59,17 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="brand" href="#">Project name</a>
+			<a class="brand">Testly</a>
 
 			<div class="nav-collapse collapse">
 				<ul class="nav">
-					<li class="active"><a href="<?= BASE_URL ?>tests">Home</a></li>
-					<li><a href="#about">About</a></li>
+					<li class="active"><a href="<?= BASE_URL ?>tests">Testid</a></li>
+					<li><a href="/views/info.html" onclick="Popup=window.open('/testly/views/info.html', 'Popup','toolbar=no, ' +
+						 'location=no,' +
+						 'status=no,' +
+						 'menubar=no,scrollbars=yes, width=420,height=400,left=430,' +
+						  'top=23'); return false;">
+							Info</a></li>
 					<li><a href="<?= BASE_URL ?>auth/logout">Logi välja</a></li>
 				</ul>
 			</div>
@@ -71,19 +77,28 @@
 		</div>
 	</div>
 </div>
-<div>
+
+<div id="myModal" class="modal hide fade">
+	<!-- dialog contents -->
+	<div class="modal-body">Infooooooooo</div>
+	<!-- dialog buttons -->
+	<div class="modal-footer"><a href="#" class="btn primary">OK</a></div>
+</div>
+<div class="container-fluid">
+
 	<?php
-	require '/views/'.$request->controller.'_'.$request->action.'_view.php';
+
+	require 'views/'.$request->controller.'_'.$request->action.'_view.php';
 	?>
 </div>
+
 <!--[if lt IE 7]>
 <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your
 	browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your
 	experience.</p>
-
 <![endif]-->
-<!-- Add your site or application content here -->
 
+<!-- Add your site or application content here -->
 
 
 </body>

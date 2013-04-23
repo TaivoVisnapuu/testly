@@ -36,7 +36,7 @@
 
 		html, body {
 			background-image: url('<?=BASE_URL?>assets/low_contrast_linen.png');
-			height: 100%;
+
 		}
 
 		table.table-bordered tr {

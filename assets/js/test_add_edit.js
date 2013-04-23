@@ -1,5 +1,28 @@
 var current_type_id=2;
-
+function addMultipleChoice(){
+	var html = '<div class="answer-option"><input type="radio" name="mc.correct" value="<id>">&nbsp;<textarea name="mc.answer.<id>"></textarea></div>'
+	var id = $('#multiple-choice-option textarea').length;
+	html = html.replace(/<id>/g, id);
+	$('#multiple-choice-option').append(html);
+	return false;
+}function addMultipleResponse(){
+	var html = '<div class="answer-option"><input type="checkbox" name="mr.correct" value="<id>">&nbsp;<textarea name="mr.answer.<id>"></textarea></div>'
+	var id = $('#multiple-response-answer-option textarea').length;
+	html = html.replace(/<id>/g, id);
+	$('#multiple-response-answer-option').append(html);
+	return false;
+}
+function removeMultipleChoice(){
+	if($('#multiple-choice-option textarea').length > 1){
+		$('#multiple-choice-option .answer-option:last').remove();
+	}
+	return false;
+}function removeMultipleResponse(){
+	if($('#multiple-response-answer-option textarea').length > 1){
+		$('#multiple-response-answer-option .answer-option:last').remove();
+	}
+	return false;
+}
 function checkForm(){
 	var elements=$('#type_id_' + current_type_id + 'input[type=checkbox]:not(.shuffle_answers), #type_id_' + current_type_id + 'input[type=radio]:not(#shuffle)');
 	var textboxes=$('#type_id_' + current_type_id + 'textarea');
@@ -11,7 +34,7 @@ function checkForm(){
 	alert("Palun m2rgi 6ige vastus");
 	return false;
 }
-$(document).ready(function(){
+$(function(){
 	$('#answer-template .answer-template').hide();
 	$('#type_id_' + current_type_id).show();
 	$('#type_id').bind('click change focus', function(event){

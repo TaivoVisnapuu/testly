@@ -47,7 +47,7 @@
 
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
-	<script src="/assets/js/html5shiv.js"></script>
+	<script src="<?=ASSETS_URL?>assets/js/html5shiv.js"></script>
 	<![endif]-->
 
 	<!-- Fav and touch icons -->
@@ -62,8 +62,8 @@
 
 
 <div class="container">
-
-	<form class="form-signin" method="post" style="background-image:url(<?=BASE_URL?>assets/mac-os-x-linen-wallpaper.jpg)">
+	<form class="form-signin" method="post" style="background-image:url(<?=BASE_URL?>assets/mac-os-x-linen-wallpaper.jpg);
+		opacity: 0.55">
 		<h2 class="form-signin-heading">Logige sisse!</h2>
 		<input name="username" type="text" class="input-block-level" placeholder="Kasutajanimi">
 		<input name="password" type="password" class="input-block-level" placeholder="Parool">
@@ -72,7 +72,6 @@
 		</label>
 		<button class="btn btn-large btn-inverse" type="submit">Logi sisse</button>
 	</form>
-
 </div> <!-- /container -->
 
 

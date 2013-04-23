@@ -1,7 +1,7 @@
 <p>
-	<a class="btn btn-inverse" href="http://www.google.com">Lisa uus test<i class="icon-white icon-play"></i></a>
+	<a class="btn btn-inverse" href="<?=BASE_URL?>tests/add">Lisa uus test<i class="icon-white icon-play"></i></a>
 </p>
-<table id="tests-table" class="table table-bordered table-stripe">
+<table id="tests-table" class="table table-bordered table-stripe" style="opacity: 0.8">
 	<thead>
 	<tr>
 		<th>Nimi</th>

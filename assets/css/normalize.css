@@ -69,6 +69,8 @@ audio:not([controls]) {
  *    user zoom.
  */
 
+.stuck {position: fixed;}
+
 html {
     background: #fff; /* 1 */
     color: #000; /* 2 */

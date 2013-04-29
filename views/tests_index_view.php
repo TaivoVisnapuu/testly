@@ -1,7 +1,11 @@
+
+<center>
+<div>
 <p>
-	<a class="btn btn-inverse" href="<?=BASE_URL?>tests/add">Lisa uus test<i class="icon-white icon-play"></i></a>
+	<a class="btn btn-inverse" href="#" id="add_test">Lisa uus test<i class="icon-white icon-play" ></i></a>
 </p>
-<table id="tests-table" class="table table-bordered table-stripe" style="opacity: 0.8">
+
+<table id="tests-table" class="table table-bordered table-stripe" style="opacity: 0.8; width:730px">
 	<thead>
 	<tr>
 		<th>Nimi</th>
@@ -31,3 +35,8 @@
 	<? endforeach; endif?>
 	</tbody>
 </table>
+<link rel="stylesheet" type="text/css" href="<?=ASSETS_URL?>css/jquery.confirm.css" />
+	<div class="item" style="display: none">
+		<div class="delete"></div>
+	</div>
+</center>

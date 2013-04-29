@@ -4,11 +4,14 @@
 		$("#tabs").tabs();
 	});
 </script>
-<div style="clear: both; margin: 15px 0">
-	<a class="btn btn-large btn-inverse" href="<?=BASE_URL?>tests">Loobu</a>
-	<button class="btn btn-large btn-primary" type="button" onclick="submit1()">Salvesta</button>
+<center>
+<div style="clear: both; padding-bottom: 7px;">
+	<a class="btn btn btn-inverse" href="<?=BASE_URL?>tests">Loobu</a>
+	<button class="btn btn btn-primary" type="button" onclick="submit1()">Salvesta</button>
 </div>
-
+</center>
+<center>
+<div style="width: 730px; opacity: 0.7">
 <div id="tabs">
 	<ul>
 		<li><a href="#tabs-1">Üldine</a></li>
@@ -71,8 +74,7 @@
 			</div>
 			<div id="type_id_3" class="answer-template">
 				<p>Sisesta vastuse variandid ja märgi ära, millised variandid on õiged</p>
-				<a href="#" onclick="return addMultipleResponse()">Lisa</a> / <a href="#" onclick="return
-				removeMultipleResponse()">Eemalda</a> vastusevariant
+				<a href="#" onclick="return addMultipleResponse()">Lisa</a> / <a href="#" onclick="return removeMultipleResponse()">Eemalda</a> vastusevariant
 				<div id="multiple-response-answer-option">
 					<div class="answer-option">
 						<input type="checkbox" name="mr.correct" value="1">
@@ -107,9 +109,6 @@
 		<input type="text" id="games" name="games" value="">
 	</div>
 	<div id="tabs-4"></div>
-	<div style="clear: both; padding: 15px 0">
-		<a tabindex="9" class="btn btn-large btn-inverse" href="<?=BASE_URL?>tests">Loobu</a>
-		<input type="hidden" id="participants" name="participants" value="">
-		<button tabindex="10" class="btn btn-large btn-primary" type="button" onclick="submit1()">Salvesta</button>
-	</div>
 </div>
+</div>
+</center>

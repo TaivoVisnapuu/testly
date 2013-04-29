@@ -21,7 +21,7 @@
 			max-width: 300px;
 			padding: 19px 29px 29px;
 			margin: 0 auto 20px;
-			background-image:url(<?=ASSETS_URL?>assets/mac-os-x-linen-wallpaper.jpg);
+			background:url(<?=ASSETS_URL?>/assets/mac-os-x-linen-wallpaper.jpg);
 			border: 1px solid darkgray;
 			-webkit-border-radius: 5px;
 			-moz-border-radius: 5px;
@@ -58,11 +58,12 @@
 	<link rel="shortcut icon" href="<?=ASSETS_URL?>assets/ico/favicon.png">
 </head>
 
-<body style="background-image:url(<?=BASE_URL?>assets/low_contrast_linen.png); color: white; text-shadow: 3px 1px 3px black">
+<body style="background:url(<?=BASE_URL?>/assets/taust1.png)white center no-repeat fixed; color: lightgray; text-shadow: 3px 1px
+	3px darkgray">
 
 
 <div class="container">
-	<form class="form-signin" method="post" style="background-image:url(<?=BASE_URL?>assets/mac-os-x-linen-wallpaper.jpg);
+	<form class="form-signin" method="post" style="background-image:url(<?=BASE_URL?>/assets/mac-os-x-linen-wallpaper.jpg);
 		opacity: 0.55">
 		<h2 class="form-signin-heading">Logige sisse!</h2>
 		<input name="username" type="text" class="input-block-level" placeholder="Kasutajanimi">
@@ -70,7 +71,7 @@
 		<label class="checkbox">
 			<input type="checkbox" value="remember-me"> Hoia meeles!
 		</label>
-		<button class="btn btn-large btn-inverse" type="submit">Logi sisse</button>
+		<button class="btn btn-large btn-inverse" type="submit" >Logi sisse</button>
 	</form>
 </div> <!-- /container -->
 

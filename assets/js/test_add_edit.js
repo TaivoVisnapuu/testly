@@ -2,13 +2,13 @@ var current_type_id=2;
 function addMultipleChoice(){
 	var html = '<div class="answer-option"><input type="radio" name="mc.correct" value="<id>">&nbsp;<textarea name="mc.answer.<id>"></textarea></div>'
 	var id = $('#multiple-choice-option textarea').length;
-	html = html.replace(/<id>/g, id);
+	html = html.replace(/<id>/g, id+1);
 	$('#multiple-choice-option').append(html);
 	return false;
 }function addMultipleResponse(){
 	var html = '<div class="answer-option"><input type="checkbox" name="mr.correct" value="<id>">&nbsp;<textarea name="mr.answer.<id>"></textarea></div>'
 	var id = $('#multiple-response-answer-option textarea').length;
-	html = html.replace(/<id>/g, id);
+	html = html.replace(/<id>/g, id+1);
 	$('#multiple-response-answer-option').append(html);
 	return false;
 }

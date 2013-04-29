@@ -15,7 +15,6 @@
 	<meta name="viewport" content="width=device-width">
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
 	<link rel="stylesheet" href="<?=ASSETS_URL?>css/normalize.css">
 	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
 	<script src="<?=ASSETS_URL?>js/vendor/modernizr-2.6.2.min.js"></script>
@@ -35,8 +34,7 @@
 		}
 
 		html, body {
-			background-image: url('<?=BASE_URL?>assets/low_contrast_linen.png');
-
+			background:url(<?=BASE_URL?>/assets/taust1.png)black center no-repeat fixed;
 		}
 
 		table.table-bordered tr {
@@ -51,7 +49,9 @@
 
 
 <body>
-<div class="navbar navbar-inverse navbar-fixed-top">
+<center>
+
+<div class="navbar navbar-inverse navbar-fixed-top" id="navBar" style="opacity: 0.8">
 	<div class="navbar-inner">
 		<div class="container">
 			<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -59,8 +59,6 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="brand">Testly</a>
-
 			<div class="nav-collapse collapse">
 				<ul class="nav">
 					<li class="active"><a href="<?= BASE_URL ?>tests">Testid</a></li>
@@ -77,7 +75,7 @@
 		</div>
 	</div>
 </div>
-
+</center>
 <div id="myModal" class="modal hide fade">
 	<!-- dialog contents -->
 	<div class="modal-body">Infooooooooo</div>
